@@ -6,3 +6,9 @@
   font-family: "Work Sans", sans-serif;
   align-items: center;
 }
+
+.flex-container {
+  width: 80%;
+  display: flex;
+  align-items: flex-start;
+}
