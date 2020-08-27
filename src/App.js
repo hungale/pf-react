@@ -1,12 +1,12 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+import "./App.css";
+import UnderlinedParagraph from "./components/UnderlinedParagraph";
 
 function App() {
   return (
     <div className="App">
-      <p>nothing here at the moment.</p>
-      <div className="line-break"></div>
-      <p>expect something soon.</p>
+      <UnderlinedParagraph color="white">nothing here at the moment.</UnderlinedParagraph>
+      <UnderlinedParagraph color="white">expect something soon.</UnderlinedParagraph>
     </div>
   );
 }
