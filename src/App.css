@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
 .App {
   background-color: #414E5A;
   display: flex;
   flex-direction: column;
+  font-family: 'Work Sans', sans-serif;
 }
