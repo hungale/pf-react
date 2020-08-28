@@ -12,21 +12,16 @@ const flexCenter = styled.div`
   justify-content: center;
 `;
 
-const Monogram = styled(flexCenter)`
+const Monogram = styled.div`
   color: ${(props) => props.color};
   background-color: var(--color-seagreen);
-  
+
   width: ${(props) => props.size};
   height: ${(props) => props.size};
-  
-  // display: flex;
-  // align-items: center;
-  // justify-content: center;
-  // font-family: 'Iceland', cursive;
-  // font-size: 1.25rem;
-}
+  display: flex;
+  align-items: center;
+  justify-content: center;
 `;
-// background-color: var(--color-green)
 
 Monogram.propTypes = {
   bg: PropTypes.string.isRequired,

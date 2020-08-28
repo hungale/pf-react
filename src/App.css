@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Iceland&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Iceland&display=swap"); */
 
 .App {
   display: flex;
@@ -9,6 +9,76 @@
 }
 
 :root {
+  --color-green: #6fdea9;
   --color-seagreen: #6a9997;
   --color-riverbed: #414e5a;
+  --color-seablue: #a4caeb;
+}
+
+.hero {
+  width: 80%;
+}
+
+a {
+  color: inherit;
+  text-decoration-line: none;
+}
+
+a:visited {
+  color: inherit;
+}
+
+.break {
+  padding-top: 43vh;
+}
+.break-sm {
+  padding-top: 43vh;
+}
+
+.text {
+  font-size: 18pt;
+}
+
+.title-text {
+  font-size: 24pt;
+}
+
+.img-small {
+  width: 30%;
+  height: 30%;
+}
+.img-md {
+  width: 50%;
+  height: 50%;
+}
+
+.about,
+.project,
+.left-align,
+.contact {
+  width: 80%;
+  display: flex;
+}
+
+.about hr {
+  width: 80%;
+  justify-self: flex-end;
+  background-color: white;
+}
+
+.dividing-line {
+  margin-left: 20px;
+  justify-self: end;
+  align-self: center;
+  width: 80%;
+  border-bottom: 4px solid white;
+  border-radius: 25%;
+}
+
+li {
+  list-style: none;
+}
+
+.project-title {
+  align-self: start;
 }
