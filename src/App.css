@@ -17,6 +17,8 @@
 
 .hero {
   width: 80%;
+  display: flex;
+  align-content: center;
 }
 
 a {
@@ -29,7 +31,7 @@ a:visited {
 }
 
 .break {
-  padding-top: 43vh;
+  padding-top: 25vh;
 }
 .break-sm {
   padding-top: 43vh;
@@ -38,14 +40,21 @@ a:visited {
 .text {
   font-size: 18pt;
 }
+@media (max-width: 768px) {
+  .text {
+    font-size: 12pt;
+  }
+  .title-text {
+    font-size: 18pt;
+  }
+}
 
 .title-text {
   font-size: 24pt;
 }
 
 .img-small {
-  width: 30%;
-  height: 30%;
+  height: 30vh;
 }
 .img-md {
   width: 50%;
@@ -68,7 +77,7 @@ a:visited {
 
 .dividing-line {
   margin-left: 20px;
-  justify-self: end;
+  margin-right: 20px;
   align-self: center;
   width: 80%;
   border-bottom: 4px solid white;
@@ -81,4 +90,22 @@ li {
 
 .project-title {
   align-self: start;
+}
+
+.mt {
+  margin: 1em 0;
+}
+
+ul {
+  column-count: 2;
+}
+
+.circle {
+  height: 2em;
+  width: 2em;
+  background-color: white;
+  border-radius: 50%;
+  align-self: center;
+  flex-shrink: 0;
+  flex-grow: 0;
 }

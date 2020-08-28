@@ -24,27 +24,15 @@ const renderList = (list) => list.map((el, idx) => <li key={idx}>→ {el}</li>);
 const App = () => {
   return (
     <div className="App">
-      {/* <Monogram bg="seagreen">ah</Monogram>
-
-      <UnderlinedParagraph color="white">
-        nothing here at the moment.
-      </UnderlinedParagraph>
-      <UnderlinedParagraph color="white">
-        expect something soon.
-      </UnderlinedParagraph>
-      <ColoredSpan bold color="seagreen">
-        i'm blue, da bo dee da bo dah
-      </ColoredSpan> */}
-
       <div className="hero break">
-        <Monogram>ah</Monogram>
-        <div className="text">
+        <div>
+          <Monogram>ah</Monogram>
           <FlexContainer>
-            <ColoredSpan>
+            <ColoredSpan className="text">
               <p>
                 Hey there, I'm <ColoredSpan color="green">Alex</ColoredSpan>.
               </p>
-              <p>I make things on the web.</p>
+              <p>I'm a full-stack developer.</p>
               <p>
                 I'm a graduate of
                 <ColoredSpan color="seablue">
@@ -92,6 +80,7 @@ const App = () => {
         <ColoredSpan className="title-text">projects</ColoredSpan>
         {/* <hr/> */}
         <div className="dividing-line"></div>
+        <div className="circle"></div>
       </div>
       <div className="project text">
         <FlexContainer>
@@ -103,13 +92,13 @@ const App = () => {
       <div className="left-align">
         <img className="img-md" src={microblog} alt="microblog"></img>
       </div>
-      <div className="project text">
+      <div className="project text mt">
         <FlexContainer>
           <ColoredSpan>
             <UnderlinedParagraph className="title-text project-title">
               Microblog
             </UnderlinedParagraph>
-            <div>→ React, HTML & CSS, Express.js, Node.js</div>
+            <div className="mt">→ React, HTML & CSS, Express.js, Node.js</div>
             <p>
               A small and simple anonymous personal blog site with simple CRUD
               functionality on posts. Includes the ability to rate posts and put

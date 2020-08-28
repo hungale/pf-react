@@ -6,7 +6,7 @@ import COLORS from "../utils/styles";
 An underlined paragraph element. 
 Takes in a color for the font and the underline.
 */
-const UnderlinedParagraph = styled.p`
+const UnderlinedParagraph = styled.span`
   color: ${(props) => props.color};
   border-bottom: ${(props) => props.thickness} solid
     ${(props) => props.underlineColor};
