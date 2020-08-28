@@ -5,18 +5,28 @@ import COLORS from "../../utils/styles";
 /*
 A square monogram with text inside.
 */
-const Monogram = styled.p`
+
+const flexCenter = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+`;
+
+const Monogram = styled(flexCenter)`
   color: ${(props) => props.color};
-  background-color: ${(props) => props.bg};
+  background-color: var(--color-seagreen);
   
   width: ${(props) => props.size};
   height: ${(props) => props.size};
   
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  // display: flex;
+  // align-items: center;
+  // justify-content: center;
+  // font-family: 'Iceland', cursive;
+  // font-size: 1.25rem;
 }
 `;
+// background-color: var(--color-green)
 
 Monogram.propTypes = {
   bg: PropTypes.string.isRequired,

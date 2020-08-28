@@ -15,7 +15,7 @@ const FlexContainer = styled.div`
     props.column &&
     css`
       flex-direction: column;
-    `}
+    `};
   ${main}: ${(props) => props.main};
   ${cross}: ${(props) => props.cross};
   margin: ${(props) => props.margin};

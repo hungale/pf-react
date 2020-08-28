@@ -20,6 +20,7 @@ const App = () => {
       </ColoredSpan>
       <FlexContainer width="80%">
         <Monogram>ah</Monogram>
+        <p></p>
       </FlexContainer>
     </div>
   );
