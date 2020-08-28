@@ -179,8 +179,12 @@ const App = () => {
         </FlexContainer>
       </div>
       <div className="footer">
-        <GHLogo />
-        <LILogo />
+        <a href="https://github.com/hungale">
+          <GHLogo></GHLogo>
+        </a>
+        <a href="https://www.linkedin.com/in/hungale/">
+          <LILogo />
+        </a>
       </div>
     </div>
   );
