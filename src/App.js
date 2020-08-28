@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 import UnderlinedParagraph from "./components/UnderlinedParagraph";
 import ColoredSpan from "./components/ColoredSpan";
-import { Monogram } from "./components";
+import { Monogram, FlexContainer } from "./components";
 
 const App = () => {
   return (
@@ -18,9 +18,9 @@ const App = () => {
       <ColoredSpan bold color="seagreen">
         i'm blue, da bo dee da bo dah
       </ColoredSpan>
-      <div className="flex-container">
+      <FlexContainer width="80%">
         <Monogram>ah</Monogram>
-      </div>
+      </FlexContainer>
     </div>
   );
 };
