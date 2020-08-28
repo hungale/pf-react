@@ -8,11 +8,24 @@
   align-items: center;
 }
 
+.grid {
+  display: grid;
+  padding: 60px 2vw 60px 2vw;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 5px;
+  grid-auto-column: 1fr;
+}
+
+.main-width {
+  grid-column: 1/11;
+}
+
 :root {
   --color-green: #6fdea9;
   --color-seagreen: #6a9997;
   --color-riverbed: #414e5a;
   --color-seablue: #a4caeb;
+  --color-seaviolet: #8a9ed4;
 }
 
 .hero {
@@ -22,12 +35,12 @@
 }
 
 a {
-  color: inherit;
+  color: var(--color-seablue);
   text-decoration-line: none;
 }
 
 a:visited {
-  color: inherit;
+  color: var(--color-seaviolet);
 }
 
 .break {
@@ -59,6 +72,16 @@ a:visited {
 .img-md {
   width: 50%;
   height: 50%;
+}
+
+svg,
+path {
+  width: 2rem;
+  height: 2rem;
+  margin: 0 2.5rem;
+  fill: white;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
 }
 
 .about,
@@ -108,4 +131,27 @@ ul {
   align-self: center;
   flex-shrink: 0;
   flex-grow: 0;
+}
+
+.rotated-square {
+  height: 2em;
+  width: 2em;
+  background-color: white;
+  align-self: center;
+  flex-shrink: 0;
+  flex-grow: 0;
+  background: #d69a9a;
+  transform: rotate(-45deg);
+}
+
+.blue {
+  background: #7296b3;
+}
+
+.teal {
+  background: #008080;
+}
+
+ul {
+  padding: 0;
 }
