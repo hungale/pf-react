@@ -27,8 +27,8 @@ const App = () => {
   return (
     <div className="App">
       <div className="hero break">
-        <div>
-          <div>
+        <div className="grid">
+          <div className="main-width">
             <Monogram>ah</Monogram>
             <FlexContainer>
               <ColoredSpan className="text">
@@ -44,19 +44,19 @@ const App = () => {
                 </p>
               </ColoredSpan>
             </FlexContainer>
-            <img className="img-small" src={me} alt="me"></img>
           </div>
+          <img className="grid-img-sm" src={me} alt="me"></img>
         </div>
       </div>
 
       <div className="about break">
-        <ColoredSpan className="title-text">about</ColoredSpan>
+        <ColoredSpan className="title-text ">about</ColoredSpan>
         <div className="dividing-line"></div>
         <div className="teal circle"></div>
       </div>
 
-      <div className="about text">
-        <FlexContainer>
+      <div className="about text grid">
+        <FlexContainer className="main-width">
           <ColoredSpan>
             <p>
               I'm really into data visualization and currently looking for
@@ -80,6 +80,7 @@ const App = () => {
         <div className="dividing-line"></div>
         <div className="rotated-square"></div>
       </div>
+
       <div className="project text">
         <FlexContainer>
           <ColoredSpan>
@@ -87,9 +88,13 @@ const App = () => {
           </ColoredSpan>
         </FlexContainer>
       </div>
+
       <div className="left-align">
-        <img className="img-md" src={microblog} alt="microblog"></img>
+        <div className="grid">
+          <img className="grid-img-md" src={microblog} alt="microblog"></img>
+        </div>
       </div>
+
       <div className="project text mt">
         <FlexContainer>
           <ColoredSpan>
@@ -116,7 +121,9 @@ const App = () => {
       </div>
 
       <div className="left-align">
-        <img className="img-md" src={warbler} alt="warbler"></img>
+        <div className="grid">
+          <img className="grid-img-md" src={warbler} alt="warbler"></img>
+        </div>
       </div>
 
       <div className="project text mt">
@@ -137,7 +144,9 @@ const App = () => {
       </div>
 
       <div className="left-align">
-        <img className="img-md" src={jobly} alt="jobly"></img>
+        <div className="grid">
+          <img className="grid-img-md" src={jobly} alt="jobly"></img>
+        </div>
       </div>
 
       <div className="project text mt">
@@ -178,6 +187,7 @@ const App = () => {
           </ColoredSpan>
         </FlexContainer>
       </div>
+
       <div className="footer">
         <a href="https://github.com/hungale">
           <GHLogo></GHLogo>

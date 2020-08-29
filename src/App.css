@@ -10,14 +10,21 @@
 
 .grid {
   display: grid;
-  padding: 60px 2vw 60px 2vw;
+  /* padding: 60px 2vw 60px 2vw; */
   grid-template-columns: repeat(12, 1fr);
   grid-column-gap: 5px;
-  grid-auto-column: 1fr;
 }
 
 .main-width {
-  grid-column: 1/11;
+  grid-column: 1/12;
+}
+.grid-img-sm {
+  width: 100%;
+  grid-column: 1 / span 3;
+}
+.grid-img-md {
+  width: 100%;
+  grid-column: 1 / span 6;
 }
 
 :root {
