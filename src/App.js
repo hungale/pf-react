@@ -52,7 +52,7 @@ const App = () => {
       <div className="about break">
         <ColoredSpan className="title-text ">about</ColoredSpan>
         <div className="dividing-line"></div>
-        <div className="teal circle"></div>
+        <div className="blue circle"></div>
       </div>
 
       <div className="about text grid">
@@ -179,9 +179,8 @@ const App = () => {
           <ColoredSpan>
             <p>Thanks for visiting my site!</p>
             <p>
-              This was designed with a lot of help from
+              Design: Alex +
               <a href="https://cdcom5.carterd.now.sh/"> Carter Duong</a>, so
-              please give his site and his work a look too!
             </p>
             <p>You can also find me on GitHub and LinkedIn:</p>
           </ColoredSpan>

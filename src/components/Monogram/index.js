@@ -6,11 +6,11 @@ import COLORS from "../../utils/styles";
 A square monogram with text inside.
 */
 
-const flexCenter = styled.div`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-`;
+// const flexCenter = styled.div`
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+// `;
 
 const Monogram = styled.div`
   color: ${(props) => props.color};
