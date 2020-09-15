@@ -161,7 +161,7 @@ const App = () => {
               with Node.js, Express.js and PostgreSQL.
             </p>
             <p>
-              Authentication done with JSON Web Tokens.Responsible for writing
+              Authentication done with JSON Web Tokens. Responsible for writing
               the frontend. Wrote a different version of the backend in Express.
             </p>
           </ColoredSpan>
