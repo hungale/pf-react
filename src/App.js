@@ -99,7 +99,7 @@ const App = () => {
         <FlexContainer>
           <ColoredSpan>
             <UnderlinedParagraph className="title-text project-title">
-              Microblog
+              <a href="https://jobly.hungale.com/">Jobly</a>
             </UnderlinedParagraph>
             <div className="mt">→ React, HTML & CSS, Express.js, Node.js</div>
             <p>
@@ -153,7 +153,7 @@ const App = () => {
         <FlexContainer>
           <ColoredSpan>
             <UnderlinedParagraph className="title-text project-title">
-              Jobly
+              <a href="https://jobly.hungale.com/">Jobly</a>
             </UnderlinedParagraph>
             <div className="mt">→ React, PostgreSQL, Express</div>
             <p>
@@ -179,8 +179,8 @@ const App = () => {
           <ColoredSpan>
             <p>Thanks for visiting my site!</p>
             <p>
-              Design: Alex +
-              <a href="https://cdcom5.carterd.now.sh/"> Carter Duong</a>, so
+              Design: Alex+
+              <a href="https://cdcom5.carterd.now.sh/">Carter Duong</a>
             </p>
             <p>You can also find me on GitHub and LinkedIn:</p>
           </ColoredSpan>
