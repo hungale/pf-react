@@ -99,7 +99,7 @@ const App = () => {
         <FlexContainer>
           <ColoredSpan>
             <UnderlinedParagraph className="title-text project-title">
-              <a href="https://jobly.hungale.com/">Jobly</a>
+              <a href="https://microblog.hungale.com/">Microblog</a>
             </UnderlinedParagraph>
             <div className="mt">→ React, HTML & CSS, Express.js, Node.js</div>
             <p>
