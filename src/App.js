@@ -99,7 +99,7 @@ const App = () => {
         <FlexContainer>
           <ColoredSpan>
             <UnderlinedParagraph className="title-text project-title">
-              <a href="https://microblog.hungale.com/">Microblog</a>
+              <a href="https://microblog.hungale.com/">microblog</a>
             </UnderlinedParagraph>
             <div className="mt">→ React, HTML & CSS, Express.js, Node.js</div>
             <p>
@@ -110,11 +110,13 @@ const App = () => {
             <p>
               Frontend written in
               <ColoredSpan color="green"> React</ColoredSpan>, backend in
-              <ColoredSpan color="green"> Express.js</ColoredSpan>,
-              <ColoredSpan color="green"> Redux</ColoredSpan>, with thunks was
-              used along with
+              <ColoredSpan color="green"> Express.js</ColoredSpan>.<br></br>
+              <ColoredSpan color="green"> Redux </ColoredSpan>
+              with Thunk (redux-thunk) was used to cache posts, comments and
+              votes.
+              <br></br>
               <ColoredSpan color="green"> Axios </ColoredSpan>
-              to make calls to API endpoints on our backend.
+              was used to make calls to API endpoints on our backend.
             </p>
           </ColoredSpan>
         </FlexContainer>
@@ -135,9 +137,12 @@ const App = () => {
             <div className="mt">→ Python, Flask, SQLAlchemy, Jinja2</div>
             <p>A Twitter clone. Built with Python and SQLAlchemy.</p>
             <p>
-              Routes and views written in Python Flask. Forms and validation
-              with Flask WTForms. Uses Jinja2 templating to serve HTML via
-              server-side rendering.
+              Routes and views written in
+              <ColoredSpan color="green"> Python Flask</ColoredSpan>. Forms and
+              validation were done with
+              <ColoredSpan color="green"> Flask WTForms</ColoredSpan>. Uses
+              <ColoredSpan color="green"> Jinja2 </ColoredSpan>
+              templating to serve HTML via server-side rendering.
             </p>
           </ColoredSpan>
         </FlexContainer>
@@ -161,8 +166,11 @@ const App = () => {
               with Node.js, Express.js and PostgreSQL.
             </p>
             <p>
-              Authentication done with JSON Web Tokens. Responsible for writing
-              the frontend. Wrote a different version of the backend in Express.
+              Authentication done with
+              <ColoredSpan color="green"> JWTs (JSON Web Tokens)</ColoredSpan>.
+              Responsible for writing the frontend. Modified existing backend
+              code in
+              <ColoredSpan color="green"> Express.js</ColoredSpan>.
             </p>
           </ColoredSpan>
         </FlexContainer>
